@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(242, 239, 239);
+    padding:0 20px;
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+h2{
+    padding-top:15px;
+    color:rgb(83, 82, 82);
+    margin-top:30px;
+    margin-bottom:5px;
+    
+}
+h3{
+    margin-top:10px;
+    margin-bottom: 5px;
+    color:rgb(46, 45, 45);
+}
+hr{
+    border: 1px solid rgb(193, 187, 187);
+}
+.container{
+    padding:0px 30px;
+}
+h5{
+    font-weight: lighter;
+    padding:5px 20px;
+    border-radius: 15px;;
+    background-color: rgb(188, 185, 185);
+    font-weight:200;
+    font-style: italic;
+    margin:2px;
+
+}
+.about p{
+    margin-top:5px;
+    color:rgb(86, 78, 78);
+    font-size: 16px;
+}
+.summary p{
+    margin-top:5px;
+    color:rgb(27, 27, 27);
+    font-size: 16px;
+}
+.contact{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left:15px;
+}
+.contact p{
+    margin-top:5px;
+    color:rgb(86, 78, 78);
+    font-size: 16px;
+}
+.contact p span{
+    font-weight: bold;
+}
+.contact p a{
+    color:rgb(86, 78, 78);
+    text-decoration: none;
+}
+.fifty{
+    width:50%;
+}
+
+.skills{
+    display:flex;
+}
+.skills-list1{
+    display:flex;
+    flex-direction: column;
+    max-width:50%;
+    padding-left:15px;
+}
+.skills-list1 p{
+    margin-bottom:0;
+}
+.skills-list1 ul{
+    margin-top:10px;
+    padding-left:20px;
+}
+.skills-list1 ul li{
+    padding-bottom:5px;
+}
+.skills-list1 ul li span{
+    font-weight: bold;
+}
+.skills-list2{
+    display:flex;
+    flex-direction: column;
+    max-width:300px;
+    padding-left:15px;
+    /* border:1px solid red; */
+}
+.skills-list2 p{
+    margin-bottom:0;
+}
+.skills-list2 ul{
+    margin-top:5px;
+    padding-left:20px;
+}
+.education{
+    padding-left:15px;
+}
+.education p span{
+    font-weight: bold;
+}
+.education p{
+    margin-top:5px;
+    color:rgb(86, 78, 78);
+    font-size: 16px;
+    margin-bottom:0px;
+}
+.education date{
+    margin-top:0px;
+    font-size:10px;
+    padding-left:15px;
+    color:rgb(86, 78, 78);
+}
+.education .name{
+    font-size:13px;
+    padding-left:15px;
+}
+.education ul{
+    margin-top:5px;
+    margin-left:15px;
+}
+.education li{
+    color:rgb(86, 78, 78);
+    margin-bottom:5px;
+}
+.information{
+    padding-left:15px;
+    margin-top:0;
+    color:rgb(86, 78, 78)
+}
+.information p span{
+    font-weight: bold;
+}
+.information a{
+    color:rgb(86, 78, 78);
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    .skills{
+        flex-direction: column;
+    }
+    .fifty{
+        width:100%;
+    }
+}
